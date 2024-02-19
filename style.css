@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.flex-container > *{
+    padding: 4rem;
+}
+
+.background-img{
+    background-image: url("img/andre-benz-WsxKHqrdibY-unsplash.jpg");
+    object-fit: cover;
+}

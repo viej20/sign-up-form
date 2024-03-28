@@ -3,38 +3,109 @@
     margin: 0;
 }
 
+.play-regular {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .play-bold {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }  
+
 .flex-container{
     display: flex;
     height: 100vh;
     width: 100vw;
 }
 
-.flex-container > *{
-    padding: 4rem;
-}
 
 .background-img{
-    background-image: url("img/andre-benz-WsxKHqrdibY-unsplash.jpg");
-    object-fit: cover;
-    width: 30vw;
-}
-
-.content-slab{
-    width: 70vw;
+   background-image: url("img/alex_rainer-GcDgpyhmR_c-unsplash.jpg");
+    background-size: cover;
+    width: 40vw;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.logo{
+    align-self: center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logo-img{
+    width: 60%;
+}
+
+figcaption{
+    align-self: flex-end;
+}
+
+.content-slab{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .form-flex-container{
     margin: 2rem 0;
     display: flex;
-    justify-content: space-between;
-    width: 40%;
-    flex-wrap: wrap;
+   flex-direction: column;
+    gap: 2rem;
+}
+
+header{
+    padding: 0 4rem;
 }
 
 .main-container{
-    margin: 2rem 0;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: lightgray;
+    padding: 4rem;
+}
+
+.form-row{
+    display: flex;
+    gap: 2rem;
+}
+
+.form-item > *{
+    display: block;
+}
+
+.form-item input{
+    width: 15rem;
+    border: 2px solid black ;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid lightblue;
+  }
+
+.form-item input[type="password"]:invalid {
+    outline: none;
+    border: 2px solid red;
+}
+
+button{
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 10rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    background-color: #fade4b;
+    border: 2px solid black;
 }

@@ -35,19 +35,21 @@
 
 .logo{
     align-self: center;
-    background-color: black;
+    background-color: rgba(175, 8, 8, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
+    padding: 1rem;
+    font-size: 3.5rem;
 }
 
 .logo-img{
-    width: 60%;
+    width: 30%;
 }
 
 figcaption{
-    align-self: flex-end;
+    padding-top: 50vh;
 }
 
 .content-slab{
@@ -55,6 +57,7 @@ figcaption{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #25292c;
 }
 
 .form-flex-container{
@@ -66,6 +69,7 @@ figcaption{
 
 header{
     padding: 0 4rem;
+    color: white;
 }
 
 .main-container{

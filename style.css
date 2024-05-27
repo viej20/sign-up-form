@@ -60,6 +60,14 @@ figcaption{
     background-color: #25292c;
 }
 
+.content-slab p{
+    font-size: 1.5rem;
+}
+
+.content-slab p span{
+    font-style: italic;
+}
+
 .form-flex-container{
     margin: 2rem 0;
     display: flex;
